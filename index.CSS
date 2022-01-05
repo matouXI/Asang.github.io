@@ -1,0 +1,434 @@
+body
+{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FBFBFB;
+}
+
+#intro
+{
+	width: 100%;
+	background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+header nav 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px;
+}
+
+nav input
+{
+	border:none;
+	background: none;
+}
+
+#insta /* bontou insta */
+{
+	background-image: url(insta.png);
+	width: 34px;
+	height: 34px;
+	margin-right: 10px; 
+}
+
+#twitter /* bontou twitter */
+{
+	background-image: url(fb.svg);
+	width: 33px;
+	height: 33px;
+	margin-right: 5px;
+	margin-right: 5px;
+}
+
+#survey
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 19px;
+	margin-right: 8vh;
+
+	/* silver 1 */
+
+	color: #D8D8D8;
+}
+
+#title 
+{	
+	margin-top: 15%;
+	padding-left: 27%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#title h1
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 70px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #D8D8D8;
+	margin: 0px;
+	
+}
+
+
+#title h2
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	width: 70%;
+	margin: 0px;
+
+	/* silver 1 */
+
+	color: #D8D8D8;
+
+}
+
+
+
+
+#collectinfo
+{
+	margin-left: 100px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+}
+
+#collectinfo div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+
+
+#collectinfo div div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+
+#collectinfo div img
+{
+	width: 35px;
+	height: 34px;
+} 
+
+
+
+#collectinfo h2
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	width: 888px;
+	margin-left: 100px;
+
+	/* Gray 2 */
+
+	color: #4F4F4F;
+}
+
+#collectinfo h3
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+
+	/* Gray 2 */
+
+	color: #4F4F4F;
+}
+
+#collectinfo h1
+{
+	width: 80%;
+	padding-left: 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+
+
+	color: rgba(253, 108, 111, 1);
+}
+
+#deroulement
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	background-image: url(backderoulement.svg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+#deroulement h1
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 33px;
+	margin-top: 90px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+
+	color: #D8D8D8;
+}
+#deroulement div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+	width: 70%;
+	height: 50%;
+	column-gap: 50px;
+
+}
+
+#deroulement div div
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 6px solid rgba(255, 255, 255, 0.6);
+	box-sizing: border-box;
+	border-radius: 22px;
+}
+
+
+
+
+#deroulement div div h2
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	/* silver 1 */
+
+	color: #D8D8D8;
+}
+
+#deroulement div div h3
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	width: 88%;
+
+	/* silver 1 */
+
+	color: #D8D8D8;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+
+
+	#intro
+	{
+		width: 100%;
+		background-image: url(back.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    height: 70vh;
+	}
+
+	#survey
+	{
+		display: none;
+	}
+
+	#title 
+	{	
+		padding-left: 15%;
+		margin-top: 15%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#title h2
+	{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		display: flex;
+		align-items: center;
+		width: 90%;
+		margin: 0px;
+
+		/* silver 1 */
+
+		color: #D8D8D8;
+
+	}
+
+
+	#deroulement div
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 50px;
+		width: 90%;
+		height: 50%;
+		column-gap: 50px;
+
+	}
+
+
+	#collectinfo
+	{
+		margin-left: 10px;
+		height: 700px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		background-image: url(back2.jpg);
+	    background-repeat: no-repeat;
+	}
+
+	#collectinfo h2
+	{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		width: 70%;
+		margin-left: 100px;
+
+		/* Gray 2 */
+
+		color: #4F4F4F;
+	}
+
+	#collectinfo div
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+	}
+
+	#mainlink
+	{
+		margin-left: 0px;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+
+
+		#intro
+	{
+		width: 100%;
+		background-image: url(back.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    height: 60vh;
+	}
+
+
+
+		#collectinfo div
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+	}
+
+		#collectinfo h2
+	{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		width: 70%;
+		margin-left: 10px;
+
+		/* Gray 2 */
+
+		color: #4F4F4F;
+	}
+
+		#collectinfo
+	{
+		margin-left: 10px;
+		height: 800px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		background-image: url(back2.jpg);
+	    background-repeat: no-repeat;
+	}
+}
